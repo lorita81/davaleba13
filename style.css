@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "mulish";
+    src: url(Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "noto sans arabic";
+    src: url(NotoSansArabic_ExtraCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "Oxygen";
+    src: url(Oxygen-Regular.ttf);
+}
+
+body {
+    background-color: #FFFFFF;
+
+}
+
+.logo {
+    margin-top: 19px;
+    margin-left: 120px;
+
+
+}
+
+header {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    margin-inline: auto;
+    margin-top: 35px;
+}
+
+.menu {
+    font-family: "mulish";
+    display: flex;
+    margin-inline: auto;
+    width: 474px;
+    height: 30px;
+    justify-content: space-between;
+    margin-top: 35px;
+    color: #000000;
+
+}
+
+section {
+    
+display: flex;
+width: 606px;
+height: 424px;
+}
+.How {
+    font-family: "noto sans arabic";
+    height: 126px;
+    width: 603px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 63px;
+    margin-top: 158px;
+
+
+}
+
+.foto {
+    left: 827px;
+    top: 286px;
+    margin-top: 221px;
+    margin-left: 104px;
+}
+
+.we {
+ font-family: "noto sans arabic";  
+font-size: 24px;
+font-weight: 100;
+line-height: 51px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+.text{
+    
+    height: 424px;
+    margin-left: 120px;
+
+}
+.join{
+    font-family: "Oxygen";
+    height: 75px;
+width: 206px;
+left: 0px;
+top: 349px;
+border-radius: 0px;
+border: none;
+padding: 15px 30px 15px 30px;
+font-size: 36px;
+
+    color: #FFFFFF;
+    background-color:  #5555FFCF;
+
+}
